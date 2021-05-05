@@ -12,6 +12,7 @@ const Search = () => {
                         value={location} 
                         placeholder="Location" 
                         onChange={ e => setlocation(e.target.value)}
+                        onBlur={ e => setlocation(e.target.value)}
                     />
                 </label>
                 <button className="" type="submit">Submit</button>
