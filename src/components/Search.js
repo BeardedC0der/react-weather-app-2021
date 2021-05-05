@@ -8,7 +8,7 @@ const Search = () => {
                 <label htmlFor="location">
                     Location
                     <input 
-                        id="" 
+                        id="location" 
                         value={location} 
                         placeholder="Location" 
                         onChange={ e => setlocation(e.target.value)}
